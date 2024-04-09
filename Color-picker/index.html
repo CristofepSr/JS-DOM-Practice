@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Selector de color</h1>
+        <input type="color" id="color">
+    </div>
+
+    <script>
+        // Seleciona el input por su id
+        const color = document.getElementById('color')
+
+        // Agrega el evento input
+        color.addEventListener('input', () => {
+            // Agreaga el el color seleciodo por el input al body
+            document.body.style.backgroundColor = color.value 
+        })
+    </script>
+</body>
+</html>

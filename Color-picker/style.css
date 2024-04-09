@@ -1,0 +1,24 @@
+.contenedor{
+    background-color: aliceblue;
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+}
+
+.contenedor h1{
+    text-align: center;
+    font-size: 35px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.contenedor input{
+    position: relative;
+    left: 33%;
+    width: 100px;
+    height: 100px;
+    border: none;
+    color: #0f0;
+}
